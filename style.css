@@ -1,0 +1,32 @@
+:root {
+	font-size: 62.5%;
+	--fg: #FAFAFA; 
+	--bg: #212121;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+	font-size: 2rem;
+	background-color: var(--bg);
+	color: var(--fg);
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+.inline {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+input {
+	padding: 0.25rem 0.5rem;
+	margin: 2rem 2rem;
+	background-color: var(--bg);
+	color: var(--fg);
+	border: solid 0.1rem var(--fg);
+}

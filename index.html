@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bioimpedancy calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<h1>Measure one</h1>
+		<div class="inline">
+			<p>Bioimpedance Modulus (Ω):</p>
+			<input type="number" value="5000" id="imp1">
+		</div>
+
+		<div class="inline">
+			<p>Signal Frequency (Hz):</p>
+			<input type="number" value="10000" id="f1">
+		</div>
+		
+		<br>
+
+		<h1>Measure two</h1>
+		<div class="inline">
+			<p>Bioimpedance Modulus (Ω):</p>
+			<input type="number" value="7000" id="imp2">
+		</div>
+
+		<div class="inline">
+			<p>Signal Frequency (Hz):</p>
+			<input type="number" value="5000" id="f2">
+		</div>
+	</div>	
+
+	<div>
+		<p id="R"></p>
+		<p id="C"></p>
+		<p id="P1"></p>
+		<p id="P2"></p>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
