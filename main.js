@@ -27,5 +27,5 @@ const updateResults = () => {
 }
 
 
-document.querySelectorAll("input").forEach((element) => element.addEventListener('click', updateResults));
+document.querySelectorAll("input").forEach((element) => element.addEventListener('change', updateResults));
 updateResults();
